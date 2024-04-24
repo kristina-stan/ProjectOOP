@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/TicketProject.iml" filepath="$PROJECT_DIR$/TicketProject.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/T-project-OOP.iml" filepath="$PROJECT_DIR$/T-project-OOP.iml" />
+>>>>>>> kristina-stan-patch-7
     </modules>
   </component>
 </project>
