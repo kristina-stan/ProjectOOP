@@ -1,5 +1,6 @@
 package lists;
 
+import utilitys.DateManager;
 import utilitys.Event;
 import utilitys.Hall;
 
@@ -9,7 +10,7 @@ import java.util.ArrayList;
 public class EventsManager implements EventManagementInterface{
     private ArrayList<Event> eventsList;
 
-    public void addEvent(Hall hall, String name, String date) throws Exception{
+    public void addEvent(Hall hall, String name, DateManager date) throws Exception{
         eventsList.add(new Event(hall,name,date));
     }
 
